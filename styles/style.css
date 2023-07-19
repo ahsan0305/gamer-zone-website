@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.g-color{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+header{
+    background-color: #FFFFFF;
+}
+/* navbar styles start  */
+.nav-container{
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+.logo-container img{
+    width: 85px;
+    height: 40px;
+}
+.logo-container p{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.nav-item-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-container a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.follow-btn{
+    color: #0B0223;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;   
+    height: 56px;
+    padding: 17px 122px 18px 24px;
+}
+/* navbar style end  */
+
+
+
+/* banner styles start  */
+.banner-container{
+    margin: 50px auto 0;
+    max-width: 1440px;
+    min-height: 600px;
+    display: flex;
+}
+.banner-text{
+    width: 50%;
+    background-image: url(../images/Group\ 14.png);
+    /* text-align: center; */
+}
+.banner-img{
+    width:50%
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+}
+.banner-text h1{  
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-align: center; */
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.banner-text h2{
+    color: #0B0223;
+    /* text-align: center; */
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.go-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    border: none;
+    background: #4EC5F7;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.sign-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    border: none;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-right: 25px;
+}
+.fa-solid{
+    height: 24px;
+    width: 24px;
+}
+/* banner style ends  */
+
+
+
+/* online games style start  */
+.grid-container{
+    display: grid;
+    max-width: 1440px;
+    margin: 50px auto 0;
+    min-height: 400px; 
+}
+.single-game{
+    width: 30%;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.funny-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+/* online games style ends  */
+
+
+
+/* play instant banner style start  */
+
+
+
+
+
+
+
+/* play instant banner style ends  */
+
+
+
+
+
+

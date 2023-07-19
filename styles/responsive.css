@@ -1,0 +1,45 @@
+@media screen and (max-width: 460px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-item-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-item-container a{
+        margin-top: 20px;
+    }
+    .nav-item-container .follow-btn{
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }   
+
+
+
+    /* banner part  */
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-text, .banner-img{
+        width: 100%;
+    }
+    .banner-text h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .banner-text h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    
+
+    /* online games part  */
+    .single-game{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+}
