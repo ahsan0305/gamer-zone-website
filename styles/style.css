@@ -149,6 +149,7 @@ header{
     gap: 24px;
     justify-content: space-between;
 }
+
 .funny-text{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -171,7 +172,7 @@ header{
     margin: 30px auto;
     display: flex;
     align-items: center;
-    min-height: 200px;
+    min-height: 50px;
     gap: 180px;
 }
 .play-instant-text{
@@ -205,12 +206,14 @@ header{
 /* icon banner styles start  */
 .icon-container{
     min-height: 300px;
-    margin-top: 0;    
+    margin-top: 0;  
+    width: 1440px;  
+    margin: 0 auto;
 }
 .single-icon{
-    flex-basis: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -221,10 +224,10 @@ header{
     padding-right: 15px;
 }
 .icon-title{
-    border: 1px solid #FF42A5;
+    border: none;
     border-radius: 50px;
     background: #FFF;
-    width: 200px;
+    width: 248px;
     height: 80px;
     display: flex;
     align-items: center;
